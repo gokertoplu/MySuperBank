@@ -7,7 +7,7 @@ namespace MySuperBank
     {
         static void Main(string[] args)
         {
-            var account = new BankAccount("Goker", 50000);
+            var account = new BankAccount("Goker", 40000);
             
             Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
             account.MakeWithdrawal(30000,DateTime.Now, "Kira Odemesi ");
